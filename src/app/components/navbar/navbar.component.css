@@ -41,7 +41,22 @@
     margin-bottom: 8px; 
 }
 
-.navbar a:hover {
+.navbar .inicio-link {
+    background-color: #ffd700;
+    color: #800000;
+    border-radius: 10px 10px 0 0;
+}
+
+.navbar a:hover,
+.navbar a:active,
+.navbar a:focus,
+.navbar a.hover-default {
+    background-color: #ffd700;
+    color: #800000;
+    border-radius: 10px 10px 0 0;
+}
+
+.navbar a.active-link {
     background-color: #ffd700;
     color: #800000;
     border-radius: 10px 10px 0 0;
