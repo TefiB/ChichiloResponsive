@@ -1,0 +1,44 @@
+.banner{
+    max-width: 400px;
+}
+
+.bannercontenedor
+{
+    background-color: #800000;
+}
+.contenedor
+{
+    display: flex;
+   flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #800000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.navbar i {
+    font-size: 24px; /* Ajusta el tamaño de los iconos según sea necesario */
+    margin-bottom: 8px; /* Ajusta el espacio entre el icono y el texto */
+}
+
+.navbar a:hover {
+    background-color: #ffd700;
+    color: #800000;
+}
