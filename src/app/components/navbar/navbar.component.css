@@ -33,6 +33,7 @@
     flex-direction: column;
     width: 100%; 
     box-sizing: border-box;
+    transition: 0.3s;
 }
 
 .navbar i {
@@ -43,4 +44,5 @@
 .navbar a:hover {
     background-color: #ffd700;
     color: #800000;
+    border-radius: 10px 10px 0 0;
 }
