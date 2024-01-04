@@ -6,6 +6,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { MenuComponent } from './components/menu/menu.component';
     InicioComponent,
     NosotrosComponent,
     MenuComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

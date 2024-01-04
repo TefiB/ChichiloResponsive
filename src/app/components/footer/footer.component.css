@@ -1,0 +1,42 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #800000;
+    color: white;
+    padding: 20px 0 0 0; 
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.iconos a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.iconos i {
+    font-size: 20px;
+    background-color: #FFD700;
+    color: #800000;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.iconos i:hover {
+    color: #FFD700;
+    background-color: #800000;
+    outline: #FFD700 1px solid;
+}
+
+.copy {
+    margin-top: 20px;
+}
