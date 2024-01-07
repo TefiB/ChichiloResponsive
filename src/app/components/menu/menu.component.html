@@ -1,1 +1,29 @@
-<p>menu works!</p>
+<div class="contenedor">
+    <div *ngFor="let categoria of categorias">
+        <h1>{{ categoria }}</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-6 mb-3" *ngFor="let platillo of platillosPorCategoria(categoria)">
+                    <div class="card h-100" (click)="mostrarDetalle(platillo)">
+                        <img [src]="platillo.imagen" alt="{{ platillo.nombre }}" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ platillo.nombre }}</h5>
+                            <p class="card-text">Precio: ${{ platillo.precio }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección detalles del platillo -->
+    <div class="overlay" *ngIf="platilloSeleccionado"></div>
+    <div class="detalle-overlay" *ngIf="platilloSeleccionado">
+        <button class="cerrar-btn" (click)="cerrarDetalle()">X</button>
+        <h2>{{ platilloSeleccionado.nombre }}</h2>
+        <img [src]="platilloSeleccionado.imagen" alt="{{ platilloSeleccionado.nombre }}">
+        <p class="descripcion">{{ platilloSeleccionado.descripcion }}</p>
+        <p class="card-text">Precio: ${{ platilloSeleccionado.precio }}</p>
+        <!-- Agrega otros detalles según sea necesario -->
+    </div>
+</div>

@@ -1,0 +1,94 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color:rgb(52, 3, 3)
+}
+
+h1 {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #556b2f;
+    max-width: 300px;
+    margin: 0 auto;
+    /* margin: 10px;*/
+    box-shadow: 4px 8px 19px 0px rgba(32, 20, 20, 0.79);
+    -webkit-box-shadow: 4px 8px 19px 0px rgba(32, 20, 20, 0.79);
+    -moz-box-shadow: 4px 8px 19px 0px rgba(32, 20, 20, 0.79);
+    cursor: pointer;
+}
+
+.card-text {
+    color: #556b2f;
+    background-color: #FFD700;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    max-width: 90%;
+    height: auto;
+    margin: 5px;
+}
+
+h5 {
+    color: white;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad */
+    z-index: 1; /* Asegúrate de que la capa esté por encima de otros elementos */
+  }
+
+.detalle-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #556b2f;
+    color: rgb(255, 255, 215);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.cerrar-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 215);
+    font-size: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.card-text {
+    margin-top: 10px;
+}
+
+.descripcion
+{
+    margin: 10px;
+}

@@ -1,1 +1,29 @@
-<p>inicio works!</p>
+<div class=" contenedor">
+    <div class="texto">
+        <h1>¡Te damos la bienvenida a la cantina Chichilo!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi vitae culpa. Praesentium aperiam sit
+            incidunt, blanditiis dignissimos, quam dolor rerum quis corrupti placeat aliquid eius magnam aliquam
+            exercitationem dolorum!</p>
+        <br>
+        <h1>Disfrute de nuestros platillos</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-6 mb-3" *ngFor="let platillo of platillosAleatorios">
+                <div class="card h-100">
+                    <img [src]="platillo.imagen" alt="{{ platillo.nombre }}" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ platillo.nombre }}</h5>
+                        <p class="card-text">Precio: ${{ platillo.precio }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <a routerLink="/menu"><button class="vermas">Ver Más</button></a>
+    </div>
+
+</div>

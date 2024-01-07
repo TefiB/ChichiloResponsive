@@ -3,6 +3,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    color:rgb(52, 3, 3)
 }
 
 img {
@@ -15,4 +16,9 @@ img {
     max-width: 800px;
     margin: auto;
     padding: 0 20px 50px 20px; 
+}
+
+h1 {
+    margin: 20px;
+    font-weight: bold;
 }

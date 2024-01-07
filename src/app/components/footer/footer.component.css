@@ -4,7 +4,7 @@
     text-align: center;
     justify-content: center;
     background-color: #800000;
-    color: white;
+    color: rgb(255, 255, 215);
     padding: 20px 0 0 0; 
 }
 
@@ -39,4 +39,9 @@
 
 .copy {
     margin-top: 20px;
+}
+
+.redes, .contacto
+{
+    margin-bottom: 10px;
 }
