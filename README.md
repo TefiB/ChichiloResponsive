@@ -1,5 +1,12 @@
 # Chichilo Responsive
 
+![image](https://github.com/TefiB/ChichiloResponsive/assets/109102705/53818844-fe72-4681-a3d0-16c2cd441324)
+![image](https://github.com/TefiB/ChichiloResponsive/assets/109102705/7ac25b97-9e92-41ed-a446-fd4dc2daddfa)
+![image](https://github.com/TefiB/ChichiloResponsive/assets/109102705/c6692a8e-d07a-4f44-b7d0-0a7bef70dea2)
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
 ## Development server
