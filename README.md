@@ -1,7 +1,7 @@
 # Chichilo Responsive
 
 ![image](https://github.com/TefiB/ChichiloResponsive/assets/109102705/12908579-4b25-462a-afbf-7b9b50397179)
-![image](https://github.com/TefiB/ChichiloResponsive/assets/109102705/7ac25b97-9e92-41ed-a446-fd4dc2daddfa) ![image](https://github.com/TefiB/ChichiloResponsive/assets/109102705/b19eccc7-6d7e-4838-9d77-c1e65f61c841)
+![image](https://github.com/TefiB/ChichiloResponsive/assets/109102705/da8a6825-b7af-4817-afe8-c49ab42b361e)
 
 
 
